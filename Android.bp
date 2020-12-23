@@ -6,7 +6,11 @@ android_app {
     platform_apis: true,
     certificate: "platform",
     libs: ["telephony-common"],
-    static_libs: ["android-common", "telephonyprovider-protos"],
+    static_libs: [
+    "android-common",
+    "telephonyprovider-protos",
+    "android-support-v4"
+    ],
 }
 
 filegroup {
